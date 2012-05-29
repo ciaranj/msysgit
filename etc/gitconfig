@@ -12,6 +12,8 @@
 	format = html
 [http]
 	sslCAinfo = /mingw/bin/curl-ca-bundle.crt
+[instaweb]
+	httpd = mongoose
 [sendemail]
 	smtpserver = /mingw/bin/msmtp.exe
 
